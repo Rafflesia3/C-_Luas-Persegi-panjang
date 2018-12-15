@@ -4,6 +4,12 @@
 
 void fungsi_by_value(int a){
     a = a * 3;
+    
+    printf("\t\t Pelita Bangsa \n\n");
+    printf("=========================================\n");
+    printf("Nama    : Rafi Alwan Setyawan \nNIM     : 311810325 \nKelas   : TI.18.D7 \n");
+    printf("=========================================\n");
+    
     printf("A by value adalah = %d alamatnya adalah %p\n",a,&a);
 
 }
