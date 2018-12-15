@@ -2,6 +2,11 @@
 
 int JUMLAH (int X , int Y);
 
+    printf("\t\t Pelita Bangsa \n\n");
+    printf("=========================================\n");
+    printf("Nama    : Rafi Alwan Setyawan \nNIM     : 311810325 \nKelas   : TI.18.D7 \n");
+    printf("=========================================\n");
+
 int main(){
    int A,B,T;
    A=5; B=2;
