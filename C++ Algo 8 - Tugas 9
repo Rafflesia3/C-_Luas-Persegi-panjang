@@ -2,6 +2,12 @@
 #include<conio.h>
 
 int TAMBAH(int A, int B);
+
+    printf("\t\t Pelita Bangsa \n\n");
+    printf("=========================================\n");
+    printf("Nama    : Rafi Alwan Setyawan \nNIM     : 311810325 \nKelas   : TI.18.D7 \n");
+    printf("=========================================\n");
+
 int main(){
 int hasil;
 hasil=TAMBAH(2,3);
