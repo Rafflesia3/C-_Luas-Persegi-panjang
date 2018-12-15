@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+void tukar(int array[2]){
+   int t=array[0];
+   array[0]=array[1];
+   array[1]=t;
+
+}
+int main(){
+     int array[2]={1,2};
+     
+    printf("\t\t Pelita Bangsa \n\n");
+    printf("=========================================\n");
+    printf("Nama    : Rafi Alwan Setyawan \nNIM     : 311810325 \nKelas   : TI.18.D7 \n");
+    printf("=========================================\n");
+     
+     printf("Before %d - %d \n",array[0],array[1]);
+     tukar(array);
+    printf("After %d - %d", array[0],array[1]);
+}
