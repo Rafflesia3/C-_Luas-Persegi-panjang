@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+         char h[5];
+         
+    printf("\t\t Pelita Bangsa \n\n");
+    printf("=========================================\n");
+    printf("Nama    : Rafi Alwan Setyawan \nNIM     : 311810325 \nKelas   : TI.18.D7 \n");
+    printf("=========================================\n");
+         
+         for(int i=0;i<5;i++){
+             printf("Elemen ke -%i = %c\n",i,h[i]);
+
+         }
+         getch();
+         return 0;
+}
