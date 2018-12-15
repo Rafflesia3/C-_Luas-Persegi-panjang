@@ -4,6 +4,12 @@
  void coba_static(int a){
   static int b=3;
   int c=1;
+  
+    printf("\t\t Pelita Bangsa \n\n");
+    printf("=========================================\n");
+    printf("Nama    : Rafi Alwan Setyawan \nNIM     : 311810325 \nKelas   : TI.18.D7 \n");
+    printf("=========================================\n");
+  
 
   printf ("b awal : %d\n",b);
   b +=a;
