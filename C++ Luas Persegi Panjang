@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int p,l,luas;
+
+    cout << "\t\t\Pelita bangsa\n\n" << endl;
+    cout << "==========================================\n" << endl;
+    cout << "Nama : Rafi Alwan Setyawan \nNIM  : 311810325\n" << endl;
+    cout << "==========================================\n" << endl;
+
+    cout << "\t     Luas Persegi Panjang\n" << endl;
+
+    cout << "Masukkan panjang persegi panjang   (cm) : ";
+    cin>>p;
+    cout << "Masukkan lebar persegi panjang     (cm) : ";
+    cin>>l;
+
+    luas=p*l;
+
+    cout << "==========================================\n" << endl;
+    cout <<"Jadi, luas persegi panjang adalah       : "<<luas<<" cm\n\n";
+
+    return 0;
+}
