@@ -1,0 +1,32 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+
+    cout << "\t\t\Pelita bangsa\n\n" << endl;
+    cout << "==========================================\n" << endl;
+    cout << "Nama : Rafi Alwan Setyawan \nNIM  : 311810325\n" << endl;
+    cout << "==========================================\n" << endl;
+
+    cout << "\t     Upah Gaji Karyawan\n" << endl;
+
+    int perjam=5000;
+    int jamkerja,upah;
+    char nama[20];
+
+    cout<<"\nNama Karyawan          = ";
+    cin>>nama;
+    cout<<"Jumlah Jam Kerja       = ";
+    cin>>jamkerja;
+    cout<<endl;
+
+    upah=jamkerja*perjam;
+
+    cout << "==========================================\n" << endl;
+    cout<<"Upah Gaji karyawan a/n "<<nama<<" = Rp "<<upah<<"\n\n";
+
+    return 0;
+
+}
