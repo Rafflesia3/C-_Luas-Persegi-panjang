@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{int nilai [5],x;
+
+    printf("\t\t Pelita Bangsa \n\n");
+    printf("=========================================\n");
+    printf("Nama    : Rafi Alwan Setyawan \nNIM     : 311810325 \nKelas   : TI.18.D7 \n");
+    printf("=========================================\n");
+
+printf("memasukan nilai:\n");
+for(x=0;x<5; x++)
+{
+    printf("Nilai Angka:");scanf("%d",&nilai[x]);
+}
+printf("\n");
+printf("Membaca nilai:\n");
+for(x=0;x<5;x++)
+{
+    printf("Nilai angka:%d", nilai [x]);
+}
+getch();
+}
